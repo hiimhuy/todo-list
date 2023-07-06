@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-control">
+      <textarea
+        id="content"
+        class="content"
+        placeholder="Enter your task here ..."
+      ></textarea>
+
+      <!-- <button>Enter</button> -->
+    </div>
+
+    <div id="list-task">
+      <h4>List tasks</h4>
+      <div class="flex">
+        <!-- <button class="btn-value btn-completedAll">Completed All</button> -->
+      </div>
+      <p class="count-itemCompleted"></p>
+      <div id="result"></div>
+    </div>
+    <div class="btn">
+      <button class="btn-value btn-all" value="all">All</button>
+      <button class="btn-value btn-active" value="active">Active</button>
+      <button class="btn-value btn-completed" value="completed">
+        Completed
+      </button>
+      <button class="btn-value btn-delete_completed">Delete Completed</button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
