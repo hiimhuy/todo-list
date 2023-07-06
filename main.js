@@ -13,6 +13,7 @@ renderTasks(tasks);
 
 taskNameEl.addEventListener("keydown", function (e) {
   if (e.key === "Enter") {
+     e.preventDefault();
     if (!taskNameEl.value) {
       alert("Vui lòng nhập tên công việc");
       return false;
